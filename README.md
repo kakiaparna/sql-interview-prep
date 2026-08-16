@@ -35,5 +35,5 @@ FROM payment
 GROUP BY customer_id
 ORDER BY total_paid DESC
 LIMIT 5;
--- Approach: aggregate payments per customer, then sort and cap results.
+
 ```
